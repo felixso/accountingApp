@@ -1,7 +1,0 @@
-keras_nlp==0.14.4
-tf-keras==2.17.0
-langchain==0.3.4
-faiss-cpu==1.9.0
-sentence-transformers==3.2.0
-langchain-community==0.3.3
-streamlit==1.39.0
