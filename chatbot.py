@@ -117,7 +117,7 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=4096, chunk_overlap=10
 # Below code is to consider each sentence as separate document
 # ..................................................................................................
 # Read the text file and split into sentences
-with open("sentences.txt", "r") as file:
+with open("IFRS9_eng.txt", "r") as file:
     text = file.read()
 
 # Assuming the sentences are separated by periods. Adjust as needed.
