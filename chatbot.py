@@ -146,10 +146,10 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 # REF URL: https://docs.streamlit.io/develop/api-reference/widgets/st.text_area
-txt = st.text_area("Question", "Ask questions to LLM!!!")
+txt = st.text_area("Frage", "Stelle eine Frage!")
 
 # Submission button
-if st.button("Submit"):
+if st.button("Abschicken"):
     
     # Retrieve the answer for the submitted question
     response = qa_chain.invoke(txt)
