@@ -10,3 +10,4 @@ unstructured[pdf]
 sentence-transformers
 pysqlite3-binary
 nltk
+tf-keras
