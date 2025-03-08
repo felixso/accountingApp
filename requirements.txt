@@ -11,3 +11,4 @@ sentence-transformers
 pysqlite3-binary
 nltk
 tf-keras
+opencv-python-headless
